@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sets LEGO - Temas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    /* Botão principal (sem imagem) */
+    .main-button {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: black;
+      padding: 20px 50px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+
+    .main-button:hover {
+      background-color: #ff9900;
+      color: white;
+    }
+
+    /* Grelha com 6 colunas (12 botões) */
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Cada botão-tema */
+    .theme-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+      text-decoration: none;
+      color: white;
+    }
+
+    .theme-card:hover {
+      transform: scale(1.05);
+    }
+
+    .theme-card img {
+      width: 100%;
+      object-fit: contain;
+    }
+
+    /* Texto sobre a imagem */
+    .theme-card span {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.6);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+footer{
+  background:#f1f1f1;
+  color:#333;
+  padding:12px 20px;   /* um pouco de espaço */
+  margin-top:20px;
+  border-top:1px solid #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:0 auto;
+  text-align:left;
+  font-size:13px;
+  line-height:1.6;
+}
+
+.footer-container a{
+  color:#0066cc;
+  text-decoration:none;
+}
+.footer-container a:hover{
+  text-decoration:underline;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Explora todos los sets LEGO</h1>
+
+  <!-- Botão central -->
+  <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22S%22,%22showHomeItems%22:0}" class="main-button">
+    Ver todos los sets
+  </a>
+
+  <!-- Grelha dos temas (12 botões com imagem) -->
+  <div class="theme-grid">
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%221236%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blta584d6300861b7b0/Theme_0036_Theme---Avatar---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Avatar">
+      <span>Avatar</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22903%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt25505d188f2b6b35/Theme_0033_Theme---Brickheadz---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Brickheadz">
+      <span>Brickheadz</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22423%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt74d942414384d083/Theme_0029_Theme---Classic---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Classic">
+      <span>Classic</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22746%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt13dbeaa735980ec4/Theme_0009_Theme---Minifigures---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Collectable Minifigures">
+      <span>Collectable Minifigures</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22171%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/bltf4a9a47810c2fa9f/Theme_0028_Theme---Creator-3in1---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Creator">
+      <span>Creator</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22878%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/bltb5eadbae89366e3c/Theme_0024_Theme---Disney---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Disney">
+      <span>Disney</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22771%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt8ec9bca46f243c1f/AID2411068P4GL_Friends_Theme_Card_342x536.jpg?quality=80&format=webply&disable=upscale&width=1080" alt="Friends">
+      <span>Friends</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22227%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt0ac62373996572e1/Theme_0017_Theme---Harry-Potter---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Harry Potter">
+      <span>Harry Potter</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22850%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/bltd666867f1905fc4c/Theme_0013_Theme---Jurassic-World---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Jurassic World">
+      <span>Jurassic World</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22842%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blte6542b1b967d5795/Theme_0003_Theme---Speed-Champions---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Speed Champions">
+      <span>Speed Champions</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%2265%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/bltc5ae98e9babd60ad/Theme_0002_Theme---Star-Wars---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Star Wars">
+      <span>Star Wars</span>
+    </a>
+    <a href="https://store.bricklink.com/WillHunting#/shop?o={%22itemType%22:%22S%22,%22catID%22:%22878%22,%22showHomeItems%22:0}" class="theme-card">
+      <img src="https://www.lego.com/cdn/cs/kids-lego-com/assets/blt15ad1e683f120007/Theme_0026_Theme---DC---Theme-card.png?quality=80&format=webply&disable=upscale&width=1080" alt="Super Heroes">
+      <span>Super Heroes</span>
+    </a>
+  </div>
+
+</body>
+
+<!-- RODAPÉ COMPACTO -->
+  <footer>
+  <div class="footer-container">
+    <p><strong>Contacto:</strong> <a href="mailto:vallislongusbricks@gmail.com">vallislongusbricks@gmail.com</a></p>
+    <p><strong>Teléfono:</strong> +351 914 702 921</p>
+    <p><a href="delivery.html">Entrega</a> | <a href="https://store.bricklink.com/WillHunting#/terms">Términos y condiciones</a></p>
+    <p><a href="hhttps://www.instagram.com/vallis_longus_bricks/" target="_blank">Instagram</a></p>
+    <p style="color:#666;">&copy; 2025 Vallis Longus Bricks</p>
+  </div>
+</footer>
+
+</html>

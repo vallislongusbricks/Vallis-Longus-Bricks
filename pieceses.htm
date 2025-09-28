@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Peças LEGO - Categorias</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    /* Botão principal */
+    .main-button {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: black;
+      padding: 20px 50px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+    .main-button:hover {
+      background-color: #ff9900;
+      color: white;
+    }
+
+    /* Grelha de categorias */
+    .button-grid {
+      display:grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap:20px;
+      margin-bottom:36px;
+    }
+
+    .cat-button {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+      background:#ffcc00;
+      color:#000;
+      font-weight:700;
+      border-radius:10px;
+      text-decoration:none;
+      font-size:15px;
+      text-align:center;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .cat-button:hover {
+      background:#ff9900;
+      color:#fff;
+      transform: translateY(-4px);
+    }
+
+    /* Responsividade */
+    @media (max-width: 1200px) {
+      .button-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (max-width: 900px) {
+      .button-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .button-grid { grid-template-columns: repeat(2, 1fr); }
+      h1 { font-size:26px; }
+    }
+
+    footer{
+    background:#f1f1f1;
+    color:#333;
+    padding:12px 20px;   /* um pouco de espaço */
+    margin-top:30px;
+    border-top:1px solid #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer-container{
+    max-width:1200px;
+    margin:0 auto;
+    text-align:left;
+    font-size:13px;
+    line-height:1.6;
+    }
+
+    .footer-container a{
+    color:#0066cc;
+    text-decoration:none;
+    }
+    .footer-container a:hover{
+    text-decoration:underline;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <main class="page">
+    <h1>¡Explora nuestras piezas LEGO!</h1>
+
+    <!-- Botão principal -->
+    <div style="text-align:center;">
+      <a class="main-button" href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22showHomeItems%22:0}">Ver todas las piezas</a>
+    </div>
+
+    <!-- Grelha com 127 categorias -->
+    <div class="button-grid">
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2293%22,%22showHomeItems%22:0}" class="cat-button">Aircraft</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2286%22,%22showHomeItems%22:0}" class="cat-button">Animal Acessory</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22146%22,%22showHomeItems%22:0}" class="cat-button">Animal Air</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22148%22,%22showHomeItems%22:0}" class="cat-button">Animal, Body Part</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221128%22,%22showHomeItems%22:0}" class="cat-button">Animal, Body Part Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22147%22,%22showHomeItems%22:0}" class="cat-button">Animal Land</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22145%22,%22showHomeItems%22:0}" class="cat-button">Animal Water</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221%22,%22showHomeItems%22:0}" class="cat-button">Antena</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%226%22,%22showHomeItems%22:0}" class="cat-button">Arch</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22273%22,%22showHomeItems%22:0}" class="cat-button">Bionicle</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22978%22,%22showHomeItems%22:0}" class="cat-button">Ball</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2246%22,%22showHomeItems%22:0}" class="cat-button">Bar</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%222%22,%22showHomeItems%22:0}" class="cat-button">Baseplate</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%224%22,%22showHomeItems%22:0}" class="cat-button">Bracket</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%225%22,%22showHomeItems%22:0}" class="cat-button">Brick</a>
+      <a href="shttps://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22118%22,%22showHomeItems%22:0}" class="cat-button">Brick Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%227%22,%22showHomeItems%22:0}" class="cat-button">Brick Modified</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%228%22,%22showHomeItems%22:0}" class="cat-button">Brick Round</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22736%22,%22showHomeItems%22:0}" class="cat-button">Brick Round Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22991%22,%22showHomeItems%22:0}" class="cat-button">Chain</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22162%22,%22showHomeItems%22:0}" class="cat-button">Cloth</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22479%22,%22showHomeItems%22:0}" class="cat-button">Cockpit</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2221%22,%22showHomeItems%22:0}" class="cat-button">Cone</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2210%22,%22showHomeItems%22:0}" class="cat-button">Container</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2274%22,%22showHomeItems%22:0}" class="cat-button">Crane</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2211%22,%22showHomeItems%22:0}" class="cat-button">Cylinder</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221037%22,%22showHomeItems%22:0}" class="cat-button">Duplo, plant</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22116%22,%22showHomeItems%22:0}" class="cat-button">Dish</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22779%22,%22showHomeItems%22:0}" class="cat-button">Dish, decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2212%22,%22showHomeItems%22:0}" class="cat-button">Door</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22540%22,%22showHomeItems%22:0}" class="cat-button">Door, decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22123%22,%22showHomeItems%22:0}" class="cat-button">Electric, Light & Sound</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22994%22,%22showHomeItems%22:0}" class="cat-button">Energy effect</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2213%22,%22showHomeItems%22:0}" class="cat-button">Fence</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2276%22,%22showHomeItems%22:0}" class="cat-button">Flag</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22738%22,%22showHomeItems%22:0}" class="cat-button">Flag, decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22175%22,%22showHomeItems%22:0}" class="cat-button">Food & drink</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2279%22,%22showHomeItems%22:0}" class="cat-button">Garage</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22749%22,%22showHomeItems%22:0}" class="cat-button">Hero Factory</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2222%22,%22showHomeItems%22:0}" class="cat-button">Hinge</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22112%22,%22showHomeItems%22:0}" class="cat-button">Hook</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2287%22,%22showHomeItems%22:0}" class="cat-button">Hose</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22528%22,%22showHomeItems%22:0}" class="cat-button">Hose, Rigid 3mm D.</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22527%22,%22showHomeItems%22:0}" class="cat-button">Hose Soft Axel </a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22990%22,%22showHomeItems%22:0}" class="cat-button">Human Tool</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2290%22,%22showHomeItems%22:0}" class="cat-button">Ladder</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22569%22,%22showHomeItems%22:0}" class="cat-button">Large Figure Part</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2220%22,%22showHomeItems%22:0}" class="cat-button">Minifigure, Body Part</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22142%22,%22showHomeItems%22:0}" class="cat-button">Minifigure, Body Wear</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22847%22,%22showHomeItems%22:0}" class="cat-button">Minifigure, Hair</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22238%22,%22showHomeItems%22:0}" class="cat-button">Minifigure, Head</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22606%22,%22showHomeItems%22:0}" class="cat-button">Minifigure, Head Modified</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2216%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Headgear</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22636%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Headgear Accessory</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22484%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Legs</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221098%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Legs Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22418%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Shield</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221097%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Torso Assembly Decor</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2218%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Utensil</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22943%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Utensil Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2219%22,%22showHomeItems%22:0}" class="cat-button">Minifigure Weapon</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2291%22,%22showHomeItems%22:0}" class="cat-button">Panel</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22461%22,%22showHomeItems%22:0}" class="cat-button">Panel Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22246%22,%22showHomeItems%22:0}" class="cat-button">Paper</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2225%22,%22showHomeItems%22:0}" class="cat-button">Plant</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22161%22,%22showHomeItems%22:0}" class="cat-button">Plastic</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2226%22,%22showHomeItems%22:0}" class="cat-button">Plate</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22885%22,%22showHomeItems%22:0}" class="cat-button">Plate, Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2227%22,%22showHomeItems%22:0}" class="cat-button">Plate, Modified</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2228%22,%22showHomeItems%22:0}" class="cat-button">Plate, Round</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22159%22,%22showHomeItems%22:0}" class="cat-button">Pneumatic</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22992%22,%22showHomeItems%22:0}" class="cat-button">Projectile Launcher</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2230%22,%22showHomeItems%22:0}" class="cat-button">Propeller</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22225%22,%22showHomeItems%22:0}" class="cat-button">Riding Cycle</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2298%22,%22showHomeItems%22:0}" class="cat-button">Road Sign</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2299%22,%22showHomeItems%22:0}" class="cat-button">Rock</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22379%22,%22showHomeItems%22:0}" class="cat-button">Roof</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22229%22,%22showHomeItems%22:0}" class="cat-button">Rubber Band & Belt</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22999%22,%22showHomeItems%22:0}" class="cat-button">Slide</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2231%22,%22showHomeItems%22:0}" class="cat-button">Slope</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22438%22,%22showHomeItems%22:0}" class="cat-button">Slope Curved</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22775%22,%22showHomeItems%22:0}" class="cat-button">Slope Curved Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2233%22,%22showHomeItems%22:0}" class="cat-button">Slope Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2232%22,%22showHomeItems%22:0}" class="cat-button">Slope Inverted</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22103%22,%22showHomeItems%22:0}" class="cat-button">Stairs</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22160%22,%22showHomeItems%22:0}" class="cat-button">Sticker Sheet</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2288%22,%22showHomeItems%22:0}" class="cat-button">String Reel / Winch</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22105%22,%22showHomeItems%22:0}" class="cat-button">Support</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22106%22,%22showHomeItems%22:0}" class="cat-button">Tail</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22107%22,%22showHomeItems%22:0}" class="cat-button">Tap</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2236%22,%22showHomeItems%22:0}" class="cat-button">Technic</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22134%22,%22showHomeItems%22:0}" class="cat-button">Technic, Axel</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22135%22,%22showHomeItems%22:0}" class="cat-button">Technic, Brick</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22133%22,%22showHomeItems%22:0}" class="cat-button">Technic, Connector</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22638%22,%22showHomeItems%22:0}" class="cat-button">Technic, Disk</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22136%22,%22showHomeItems%22:0}" class="cat-button">Technic, Gear</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22137%22,%22showHomeItems%22:0}" class="cat-button">Technic, Liftarm</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22777%22,%22showHomeItems%22:0}" class="cat-button">Technic, Liftarm Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22138%22,%22showHomeItems%22:0}" class="cat-button">Technic, Link</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22154%22,%22showHomeItems%22:0}" class="cat-button">Technic, Panel</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22139%22,%22showHomeItems%22:0}" class="cat-button">Technic, Pin</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22140%22,%22showHomeItems%22:0}" class="cat-button">Technic, Plate</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22141%22,%22showHomeItems%22:0}" class="cat-button">Technic, Stearing</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2237%22,%22showHomeItems%22:0}" class="cat-button">Tiles</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2239%22,%22showHomeItems%22:0}" class="cat-button">Tile Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2238%22,%22showHomeItems%22:0}" class="cat-button">Tile Modified</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22778%22,%22showHomeItems%22:0}" class="cat-button">Tile, Modified Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22117%22,%22showHomeItems%22:0}" class="cat-button">Tile, Round</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22812%22,%22showHomeItems%22:0}" class="cat-button">Tile, Round Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22124%22,%22showHomeItems%22:0}" class="cat-button">Train</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22128%22,%22showHomeItems%22:0}" class="cat-button">Train Track</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2240%22,%22showHomeItems%22:0}" class="cat-button">Turntable</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2272%22,%22showHomeItems%22:0}" class="cat-button">Vehicle</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22131%22,%22showHomeItems%22:0}" class="cat-button">Vehicle, Base</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2277%22,%22showHomeItems%22:0}" class="cat-button">Vehicle, Mudguard</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2242%22,%22showHomeItems%22:0}" class="cat-button">Wedge</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22578%22,%22showHomeItems%22:0}" class="cat-button">Wedge, Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22583%22,%22showHomeItems%22:0}" class="cat-button">Wedge, Plate</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2243%22,%22showHomeItems%22:0}" class="cat-button">Wheel</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%221027%22,%22showHomeItems%22:0}" class="cat-button">Wheel, Accessory</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22111%22,%22showHomeItems%22:0}" class="cat-button">Wheel, Tire & Tread</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22113%22,%22showHomeItems%22:0}" class="cat-button">Window</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%2281%22,%22showHomeItems%22:0}" class="cat-button">Window, Glass & Shutter</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22132%22,%22showHomeItems%22:0}" class="cat-button">Window, Glass & Shutter, Decorated</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22115%22,%22showHomeItems%22:0}" class="cat-button">Windscreen</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22P%22,%22catID%22:%22579%22,%22showHomeItems%22:0}" class="cat-button">Windscreen, Decorated</a>
+    </div>
+  </main>
+
+</body>
+
+  <footer>
+  <div class="footer-container">
+    <p><strong>Contacto:</strong> <a href="mailto:vallislongusbricks@gmail.com">vallislongusbricks@gmail.com</a></p>
+    <p><strong>Teléfono:</strong> +351 914 702 921</p>
+    <p><a href="delivery.html">Entrega</a> | <a href="https://store.bricklink.com/WillHunting#/terms">Términos y condiciones</a></p>
+    <p><a href="hhttps://www.instagram.com/vallis_longus_bricks/" target="_blank">Instagram</a></p>
+    <p style="color:#666;">&copy; 2025 Vallis Longus Bricks</p>
+  </div>
+</footer>
+
+</html>

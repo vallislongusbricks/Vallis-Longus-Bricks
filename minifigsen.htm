@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Minifiguras LEGO - Categorias</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      text-align: center;
+      margin: 20px;
+    
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    /* Botão principal (igual ao da página dos sets) */
+    .main-button {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: black;
+      padding: 20px 50px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+    .main-button:hover {
+      background-color: #ff9900;
+      color: white;
+    }
+
+    /* Grelha de categorias */
+    .button-grid {
+      display:grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap:28px;
+      margin-bottom:36px;
+    }
+
+    /* Botões de categorias (versão mais simples, que preferiste) */
+    .cat-button {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+      background:#ffcc00;
+      color:#000;
+      font-weight:700;
+      border-radius:10px;
+      text-decoration:none;
+      font-size:15px;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .cat-button:hover {
+      background:#ff9900;
+      color:#fff;
+      transform: translateY(-4px);
+    }
+
+    /* Responsividade */
+    @media (max-width: 1200px) {
+      .button-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (max-width: 900px) {
+      .button-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .button-grid { grid-template-columns: repeat(2, 1fr); }
+      h1 { font-size:26px; }
+    }
+
+        footer{
+  background:#f1f1f1;
+  color:#333;
+  padding:12px 20px;   /* um pouco de espaço */
+  margin-top:30px;
+  border-top:1px solid #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:0 auto;
+  text-align:left;
+  font-size:13px;
+  line-height:1.6;
+}
+
+.footer-container a{
+  color:#0066cc;
+  text-decoration:none;
+}
+.footer-container a:hover{
+  text-decoration:underline;
+}
+
+  </style>
+</head>
+<body>
+
+  <main class="page">
+    <h1>Explore our Lego minifigures!</h1>
+
+    <!-- Botão principal -->
+    <div style="text-align:center;">
+      <a class="main-button" href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22showHomeItems%22:0}">See all Minifigures</a>
+    </div>
+
+    <!-- Grelha com 18 categorias -->
+    <div class="button-grid">
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22878%22,%22showHomeItems%22:0}" class="cat-button">Dinsney</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22771%22,%22showHomeItems%22:0}" class="cat-button">Friends</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22227%22,%22showHomeItems%22:0}" class="cat-button">Harry Potter</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%221042%22,%22showHomeItems%22:0}" class="cat-button">Hidden Side</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22850%22,%22showHomeItems%22:0}" class="cat-button">Jurassic World</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22787%22,%22showHomeItems%22:0}" class="cat-button">Legends of Chima</a>
+
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22817%22,%22showHomeItems%22:0}" class="cat-button">Lego Ideas</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22801%22,%22showHomeItems%22:0}" class="cat-button">Minecraft</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22868%22,%22showHomeItems%22:0}" class="cat-button">Nexo Knights</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%221163%22,%22showHomeItems%22:0}" class="cat-button">Queer Eye</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%2265%22,%22showHomeItems%22:0}" class="cat-button">Star Wars</a>
+      <a href="lhttps://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22768%22,%22showHomeItems%22:0}" class="cat-button">Super Heroes</a>
+
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22790%22,%22showHomeItems%22:0}" class="cat-button">Ninja Turtles</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%2267%22,%22showHomeItems%22:0}" class="cat-button">City</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22732%22,%22showHomeItems%22:0}" class="cat-button">Toy Story</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22747%22,%22showHomeItems%22:0}" class="cat-button">World Racers</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22S%22,%22catID%22:%22746%22,%22showHomeItems%22:0}" class="cat-button">CMF</a>
+      <a href="https://store.bricklink.com/WillHunting#/shop?o={%22pgSize%22:100,%22itemType%22:%22M%22,%22catID%22:%22284%22,%22showHomeItems%22:0}" class="cat-button">Ninja</a>
+    </div>
+  </main>
+
+</body>
+
+  <footer>
+  <div class="footer-container">
+    <p><strong>Contact:</strong> <a href="mailto:vallislongusbricks@gmail.com">vallislongusbricks@gmail.com</a></p>
+    <p><strong>Telephone:</strong> +351 914 702 921</p>
+    <p><a href="delivery.html">Delivery</a> | <a href="https://store.bricklink.com/WillHunting#/terms">Terms and conditions</a></p>
+    <p><a href="hhttps://www.instagram.com/vallis_longus_bricks/" target="_blank">Instagram</a></p>
+    <p style="color:#666;">&copy; 2025 Vallis Longus Bricks</p>
+  </div>
+</footer>
+
+</html>
